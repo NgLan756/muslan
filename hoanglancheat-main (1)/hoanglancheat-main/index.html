@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Attention! Your Website Has Security Vulnerabilities That Need Immediate Attention. Failure To Address These Vulnerabilities May Result in Unauthorized Access, Data Breaches, Or Other Malicious Activities. It Is Crucial To Take Action To Secure Your Website And Protect Your Users' Sensitive Information">
+    <meta property="og:image" content="https://img.upanh.tv/2025/03/05/IMG_4684.png" alt="IMG_4684.png">
+    <link rel="icon" href="https://img.upanh.tv/2025/03/05/IMG_4684.png" alt="IMG_4684.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://img.upanh.tv/2025/03/05/IMG_4684.png" alt="IMG_4684.png">
+    <title>BY | @NguyenLan</title>
+    <style>
+        @keyframes rainbow {
+            0% { color: red; }
+            14% { color: orange; }
+            28% { color: yellow; }
+            42% { color: green; }
+            57% { color: blue; }
+            71% { color: indigo; }
+            85% { color: violet; }
+            100% { color: red; }
+        }
+        .rainbow-text {
+            animation: rainbow 2s infinite linear;
+        }
+        
+        canvas {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+        
+        .loading {
+            display: none;
+            width: 20px;
+            height: 20px;
+            border: 3px solid white;
+            border-top: 3px solid red;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <canvas id="spiderCanvas"></canvas>
+    
+    <audio id="lagu" loop src="https://jmp.sh/s/ROp0AUbnl8eWZ7GuKQG3"></audio>
+
+    <table height="80%" width="100%">
+        <tbody>
+            <tr>
+                <td>
+                    <center>
+                        <br>
+                        <div style="text-align: center; color: white;">
+                            <b>[] <font class="rainbow-text"><i>@NguyenLaniOS</i></font> []</b>
+                            <br>
+                            <span style="color: red;">Mua File Liên Hệ Nlan Nhó..!</span>
+                            <hr>
+                        </div>
+                        <font size="4" color="white">[ </font>
+                        <font size="4" color="white">Config! File! Data! Vip? <font class="rainbow-text">@ <font size="4" color="white"> ]</font>
+                        <br>
+                        <font color="white" face="verdana" size="3">-=|</font>
+                        <font face="verdana" color="white" style="text-shadow: white 0 0 10px ;" size="2">
+                            <marquee scrollamount="6" behavior="alternate" width="50%">
+                                | Zalo : 0971553617 - NGUYEN HOANG LAN |
+                            </marquee>
+                        </font>
+                        <font color="white" face="verdana" size="3">|=-</font>
+                        <br>
+                        <img alt="" src="https://i.gifer.com/PcUC.gif">
+                        <hr>
+                        <br>
+                        <b><span style="color: white;">Zalo Contact: </br><i class="rainbow-text">{} <i style="color: white;"> By NguyenLan <i class="rainbow-text"> [] <i style="color: white;"> Intrustion Exploit <i class="rainbow-text"> [] <i style="color: white;"> CyberBAXV <i class="rainbow-text">{}</i></span></b><br>
+                        <b><span style="color: white;"></br>Nlan Uy Tín S1 VN !!<i class="rainbow-text"> - Contact: NgLan </i></span></b><br>
+                        <div class="control-buttons">
+                            <button class="toggle-music" onclick="toggleMusic()">
+                                <div class="loading" id="loading"></div>
+                                <span id="music-text">RUN</span>
+                            </button>
+                        </div>
+                    </center>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script>
+        let isPlaying = false;
+        const audio = document.getElementById("lagu");
+        const musicText = document.getElementById("music-text");
+        const loading = document.getElementById("loading");
+
+        function toggleMusic() {
+            if (isPlaying) {
+                audio.pause();
+                musicText.innerText = "Run Code";
+                loading.style.display = "none";
+            } else {
+                audio.play();
+                musicText.innerText = "Pause Config";
+                loading.style.display = "inline-block";
+            }
+            isPlaying = !isPlaying;
+        }
+    </script>
+</body>
+</html>
